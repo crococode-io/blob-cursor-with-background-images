@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Blob Cursor with Background Images - CROCO.CODE</title>
+		<meta name="description" content="A custom animated gooey/blob cursor with background images made with CSS3 and Javascript." />
+		<meta name="keywords" content="blob, gooey, cursor, javascript, image, background, css3, animation" />
+		<meta name="author" content="CROCO.CODE" />
+		<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+    
+    <!-- DELETE THIS PART ( Global site tag (gtag.js) - Google Analytics ) - START -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124048250-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124048250-1');
+    </script>
+    <!-- DELETE THIS PART ( Global site tag (gtag.js) - Google Analytics ) - END -->
+
+  </head>
+  <body>
+    
+    <!-- CROCO.CODE:loader START -->
+    <div class="loader">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- CROCO.CODE:loader END -->
+
+    <!-- CROCO.CODE:cursor-blob START -->
+    <div id="cursor-blob"></div>
+    <!-- CROCO.CODE:cursor-blob END -->
+
+    <!-- CROCO.CODE:header START -->
+    <header>
+      <div class="logo">
+        <a href="#"><span>blob</span></a>
+      </div>
+      <nav class="navigation">
+        <li><a href="https://www.instagram.com/croco.code/"><span>Instagram</span></a></li>
+        <li><a href="https://github.com/crococode-io/blob-cursor-with-background-Images"><span>Github</span></a></li>
+        </nav>
+    </header>
+    <!-- CROCO.CODE:header END -->
+
+    <!-- CROCO.CODE:blob START -->
+    <section class="blob">
+      <ul class="nav">
+        <li class="nav_link" data-bcg="assets/img/img-1.jpeg"><span>1</span></li>
+        <li class="nav_link" data-bcg="assets/img/img-2.jpeg"><span>2</span></li>
+        <li class="nav_link" data-bcg="assets/img/img-3.jpeg"><span>3</span></li>
+        <li class="nav_link" data-bcg="assets/img/img-4.jpeg"><span>4</span></li>
+        <li class="nav_link" data-bcg="assets/img/img-5.jpeg"><span>5</span></li>
+        <li class="nav_link" data-bcg="assets/img/img-6.jpeg"><span>6</span></li>
+      </ul>
+    </section>
+    <!-- CROCO.CODE:blob END -->
+    
+    <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/demo.js"></script>
+
+  </body>
+</html>
