@@ -18,4 +18,4 @@ This resource can be used freely if integrated or build upon in personal or comm
 
 Follow CROCO.CODE: [GitHub](https://github.com/crococode-io) & [Instagram](https://www.instagram.com/croco.code/)
 
-[© CROCO.CODE 2022](https://www.instagram.com/croco.code)
+[© CROCO.CODE 2022](https://www.instagram.com/croco.code) 
